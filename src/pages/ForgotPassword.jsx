@@ -13,7 +13,7 @@ export default function ForgotPassword() {
     };
 
     return (
-        <div className="container max-w-2xl py-10">
+        <div className="container max-w-3xl">
             <Link to="/" className="inline-flex items-center gap-2 text-sm mb-6 hover:underline">
                 <ArrowLeft className="h-4 w-4" /> Torna alla Home
             </Link>

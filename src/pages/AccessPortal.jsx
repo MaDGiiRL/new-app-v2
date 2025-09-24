@@ -10,9 +10,9 @@ export default function AccessPortal() {
     const { session, signOut } = useContext(SessionContext);
 
     return (
-        <div className="text-center space-y-10">
+        <div className="text-center space-y-15">
             {/* Hero */}
-            <div className="space-y-3 pt-10">
+            <div className="space-y-3">
                 <div className="flex justify-center">
                     <img
                         src="https://i.imgur.com/dS54iAp.png"
@@ -21,7 +21,7 @@ export default function AccessPortal() {
                     />
                 </div>
                 <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-                    Applicativi informatici
+                    Applicativi Informatici
                 </h1>
                 <p className="text-lg sm:text-xl">Direzione Protezione Civile, Sicurezza e Polizia Locale</p>
                 <p className="text-sm opacity-80">Sezione ad accesso riservato agli utenti accreditati</p>

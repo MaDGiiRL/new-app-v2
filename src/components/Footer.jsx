@@ -5,7 +5,7 @@ export default function Footer() {
 
     return (
         <>
-            <footer className="mt-16 border-t border-slate-200 dark:border-slate-800">
+            <footer className="mt-16 backdrop-blur">
                 <div className="container py-6 text-xs sm:text-sm flex flex-col sm:flex-row items-center justify-between gap-3">
                     <p className="text-center sm:text-left">
                         © All rights reserved. Regione del Veneto Direzione Protezione Civile e Polizia Locale - Ufficio Pianificazione.

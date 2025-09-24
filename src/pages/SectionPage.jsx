@@ -3,7 +3,20 @@ import { sections, getIconFor } from "../routes/sections";
 
 export default function SectionPage() {
     const { slug } = useParams();
-    const item = sections.find(s => s.slug === slug);
+
+    if (slug === "segnalazioni") {
+        return (
+            <div className="container max-w-5xl py-10">
+                <h2 className="text-xl font-semibold mb-2">La sezione Segnalazioni è stata spostata</h2>
+                <p className="mb-3">Ora è disponibile nella nuova area dedicata.</p>
+                <Link className="text-sky-600 hover:underline" to="/segnalazioni">
+                    Vai a /segnalazioni
+                </Link>
+            </div>
+        );
+    }
+
+    const item = sections.find((s) => s.slug === slug);
     const Icon = getIconFor(slug);
 
     if (!item) {
@@ -22,7 +35,7 @@ export default function SectionPage() {
                     <Icon className="h-6 w-6" />
                 </div>
                 <div>
-                    <h1 className="text-2xl font-bold">{item.title}</h1>
+                    <h1 className="text-2xl font-bold capitalize">{item.title}</h1>
                     <p className="text-sm opacity-70 mt-0.5">/app/{item.slug}</p>
                 </div>
             </div>
