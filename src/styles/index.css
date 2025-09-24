@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+* { outline-color: transparent; }
+.focus-ring {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, .45);
+}
