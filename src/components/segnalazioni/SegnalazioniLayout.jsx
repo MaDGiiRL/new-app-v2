@@ -1,6 +1,6 @@
 import FullBleed from "../FullBleed";
 import { Outlet } from "react-router-dom"; 
-import Sidebar from "./Sidebar"; 
+import Sidebar from "../Sidebar"; 
 import routes from "./routesConfig";
 
 export default function SegnalazioniLayout() {

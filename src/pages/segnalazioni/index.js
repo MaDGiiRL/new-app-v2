@@ -20,4 +20,3 @@ export { default as MappaStatoCOC } from "./MappaStatoCOC";
 export { default as MappaAttivitaOrganizzazioni } from "./MappaAttivitaOrganizzazioni";
 export { default as RicercaRecapiti } from "./RicercaRecapiti";
 export { default as Reportistica } from "./Reportistica";
-export { default as GestioneSegnalazioni } from "./GestioneSegnalazioni";
